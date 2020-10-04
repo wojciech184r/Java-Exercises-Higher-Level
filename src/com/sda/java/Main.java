@@ -9,19 +9,23 @@ public class Main {
 
         list.add("Adam");
         list.add("John");
-        list.add("Bev");
+        list.add("bev");
         list.add("Ron");
         list.add("Martin");
-        list.add("Jojo");
+        list.add("jojo");
         list.add("Kiki");
         list.add("Lisa");
-        list.add("Sam");
+        list.add("sam");
         list.add("Wojtek");
 
 
+//
+//        Exercise2 exercise2 = new Exercise2();
+//        exercise2.sortIgnoreCase(list);
+//        System.out.println(list);
 
-        Exercise1 exercise1 = new Exercise1();
-        exercise1.sorting(list);
-        System.out.println(list);
+//        Exercise1 exercise1 = new Exercise1();
+//        exercise1.sorting(list);
+//        System.out.println(list);
     }
 }
