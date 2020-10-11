@@ -1,7 +1,7 @@
 //Stwórz metodę, która jako parametr przyjmuje listę stringów,
 // następnie zwraca tą listę posortowaną alfabetycznie od Z do A.
 
-package com.sda.java;
+package com.Exercise1And2;
 import java.util.Collections;
 import java.util.List;
 

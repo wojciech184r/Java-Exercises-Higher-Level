@@ -2,7 +2,7 @@
 // następnie zwraca tą listę posortowaną alfabetycznie od Z do A nie biorąc pod uwagę wielkości liter.
 
 
-package com.sda.java;
+package com.Exercise1And2;
 
 import java.util.Collections;
 import java.util.List;
