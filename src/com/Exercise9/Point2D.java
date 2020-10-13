@@ -14,8 +14,10 @@ package com.Exercise9;
 
 public class Point2D {
 
-    double x;
-    double y;
+     double x;
+     double y;
+     double centre = x;
+     double point = y;
 
     public Point2D() {
     }

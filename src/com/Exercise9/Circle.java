@@ -2,29 +2,43 @@ package com.Exercise9;
 
 public class Circle extends Point2D {
 
-    double area;
-    double cyrcle;
-    double radius;
-    double p=x+y;
+    private static double p;
+    private static double radius;
+    private static double cyrcle;
+    private static double area;
 
 
-    public Circle(Point2D center,Point2D point ) {
-        super();
+    public Circle(Point2D point) {
+        super(point.x, point.y);
+    }
+
+    public Circle(Point2D centre, Point2D point2D) {
+
+    }
+
+    static double p(double x, double y) {
+        System.out.println(x + y);
+        return x + y;
     }
 
 
-
-    double getRadius(){
-        p=Math.pow(p,2);
-        radius=Math.sqrt(p);
+    static double getRadius(double x, double y) {
+        p = x + y;
+        double z = Math.pow(p, 2);
+        radius = Math.sqrt(z);
+        System.out.println(radius);
         return radius;
     }
-    double getPerimeter(){
-        cyrcle=2*Math.PI*radius;
+
+    static double getPerimeter(double radius) {
+        cyrcle = 2 * Math.PI * radius;
+        System.out.println(cyrcle);
         return cyrcle;
     }
-    double getArea(){
-        area=radius*radius*Math.PI;
+
+    static double getArea(double radius) {
+        area = radius * radius * Math.PI;
+        System.out.println(area);
         return area;
     }
 
