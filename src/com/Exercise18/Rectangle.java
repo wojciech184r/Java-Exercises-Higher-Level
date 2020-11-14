@@ -8,8 +8,8 @@ public class Rectangle extends Shape {
 
     @Override
     double calculatePerimeter() {
-        double sum1 = (2*b) + (2*c);
-        System.out.println("Rectangle Perimeter equals: "+sum1);
+        double sum1 = (2 * b) + (2 * c);
+        System.out.println("Rectangle Perimeter equals: " + sum1);
         return sum1;
     }
 

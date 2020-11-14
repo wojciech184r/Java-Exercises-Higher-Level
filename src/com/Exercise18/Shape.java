@@ -7,6 +7,9 @@ Stwórz abstrakcyjną klasę Shape wraz z abstrakcyjnymi metodami calculatePe
 package com.Exercise18;
 
  abstract class Shape {
+     abstract double calculatePerimeter();
+     abstract double calculateArea();
+
      public static void main(String[] args) {
          Triangle triangle = new Triangle(3.0,4.0);
          Triangle triangle2 = new Triangle(3.0,3.0,5.0);
@@ -20,9 +23,14 @@ package com.Exercise18;
          Hexagon hexagon = new Hexagon(6.0);
          hexagon.calculateArea();
          hexagon.calculatePerimeter();
+         System.out.println("-----------------");
+         Cone cone = new Cone(3,3,7);
+         cone.calculateVolume();
+         System.out.println("---------");
+         Cone.fill(94.2477796076938,cone);
+         System.out.println("-----------");
+         Cube cube = new Cube(30);
+         cube.calculateVolume();
+         Cube.fill(27000.0,cube);
      }
-
-     abstract double calculatePerimeter();
-     abstract double calculateArea();
-
  }

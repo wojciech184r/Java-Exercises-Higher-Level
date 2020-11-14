@@ -8,14 +8,14 @@ public class Triangle extends Shape {
 
     @Override
     double calculatePerimeter() {
-        double sum = a+b+c;
+        double sum = a + b + c;
         System.out.println("Triangle Parimeter equals :" + sum);
         return sum;
     }
 
     @Override
     double calculateArea() {
-        double area = (b*h)/2;
+        double area = (b * h) / 2;
         System.out.println("Triangle Area equals :" + area);
         return area;
     }
